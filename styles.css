@@ -1,0 +1,42 @@
+/* Add animations to the card container */
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  animation-name: fadeIn;
+  animation-duration: 3s;
+}
+
+/* Navigation bar Style */
+.w3_navigation {
+  background-color: red;
+  color: #fff;
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+.centered-menu {
+  text-align: center;
+}
+
+/* Add animation to the news image */
+.image img {
+  animation-name: slideIn;
+  animation-duration: 2s;
+}
+
+@keyframes slideIn {
+  0% {
+      transform: translateX(-100%);
+  }
+  100% {
+      transform: translateX(0);
+  }
+}
